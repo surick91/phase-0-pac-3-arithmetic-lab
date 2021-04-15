@@ -1,19 +1,22 @@
-function add(){
-    return 1+80;
+function add(a,b){
+    return (a+b)
 }
-function subtract(){
-    return 60-40;
-}
-function multiply(){
-    return 2 * 3.4;
+function multiply(a,b){
+    return (a*b)
 } 
-function divide(){
-    return 5.0 / 2.5; 
+function divide(a,b){
+        return (a/b)
 }
-function add(number){
-    return number+=5;
+function subtract(a,b){
+    return (a-b);
 }
-function makeInt(n,radix){
-    return parseInt(n, radix)
+function increment (a) {
+    return (a = a + 1)
 }
-makeInt("", 10)
+function decrement (a){
+    return (a = a - 1);
+}
+function makeInt (a,b){
+    const parsed = parseInt('a',b);
+     return makeInt;
+}
